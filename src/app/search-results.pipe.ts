@@ -19,7 +19,7 @@ export class SearchResultsPipe implements PipeTransform {
 
     if (searchedType === 'currency') {
       return value.filter(v =>
-        v.currencies.some(
+        v?.currencies?.some(
           c =>
             (c.code || '').match(new RegExp(searchedText, 'gi')) ||
             (c.name || '').match(new RegExp(searchedText, 'gi'))
@@ -29,7 +29,7 @@ export class SearchResultsPipe implements PipeTransform {
 
     if (searchedType === 'language') {
       return value.filter(v =>
-        v.languages.some(
+        v?.languages?.some(
           c =>
             (c.iso639_2 || '').match(new RegExp(searchedText, 'gi')) ||
             (c.name || '').match(new RegExp(searchedText, 'gi'))
