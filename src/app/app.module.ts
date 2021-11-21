@@ -21,7 +21,7 @@ import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { KeysPipe } from './keys.pipe';
 import { environment } from '../environments/environment';
-import { ScullyLibModule } from '@scullyio/ng-lib';
+// import { ScullyLibModule } from '@scullyio/ng-lib';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -52,7 +52,7 @@ const appRoutes: Routes = [
       apiVersion: '3.31'
     }),
     AgmSnazzyInfoWindowModule,
-    ScullyLibModule
+    // ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
