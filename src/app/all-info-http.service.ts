@@ -8,6 +8,6 @@ export class AllInfoHttpService {
   constructor(private _http: HttpClient) {}
 
   getAllData() {
-    return this._http.get('https://restcountries.eu/rest/v2/all');
+    return this._http.get('https://restcountries.com/v2/all');
   }
 }
