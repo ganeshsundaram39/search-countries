@@ -4,4 +4,6 @@ Using stored unhandled routes!.
    To discover new routes in the angular app use "[33mnpm run scully -- --scanRoutes[39m"
 ----------------------------------
 No configuration for route "[33m/results/:filter[39m" found. Skipping
-No configuration for route "[33m/details/:alpha3Code[39m" found. Skipping
+No configuration for route "[33m/details/:alpha3Code[39m" found. SkippingFolder "./scully" doesn't seem to contain custom plugins
+No configuration for route "/results/:filter" found. SkippingNo configuration for route "/details/:alpha3Code" found. Skipping
+

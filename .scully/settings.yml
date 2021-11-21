@@ -1,0 +1,11 @@
+identifier: k5w69f3783t0bdd6
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: search-countries
+homeFolder: /home/ganesh/Documents/ganesh/coding/search-countries
+distFolder: dist/search-countries
+outDir: /home/ganesh/Documents/ganesh/coding/search-countries/dist/static
+handle404: ''
+allowErrorCollect: false
